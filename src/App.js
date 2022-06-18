@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import {tombol} from './Komponen/try';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <p>
           Cool <code>src/App.js</code> and save to reload.
         </p>
+        <tombol/>
         <a
           className="App-link"
           href="https://reactjs.org"
