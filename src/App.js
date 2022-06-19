@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Tombol} from './Komponen/try';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import {Data} from './Komponen/try';
 
 function App() {
@@ -12,8 +12,6 @@ function App() {
         <p>
           Cool <code>src/App.js</code> and save to reload.
         </p>
-        <Tombol/>
-        <Data/>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -23,6 +21,11 @@ function App() {
           Learn React
         </a>
       </header>
+      <Router>
+        <Routes>
+          <Route path="/login" element={<Data/>} />
+        </Routes>
+      </Router>
     </div>
   );
 }

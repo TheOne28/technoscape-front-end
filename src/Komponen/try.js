@@ -1,12 +1,7 @@
 import React from 'react';
 import './try.css';
-import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
+import { Form, FormGroup, Label, Input } from 'reactstrap';
 
-export function Tombol(props) {
-  return (
-    <Button color="danger">Danger!</Button>
-  );
-};
 
 export function Data(props) {
   return (

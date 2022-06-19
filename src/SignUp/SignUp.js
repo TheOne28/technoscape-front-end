@@ -6,7 +6,7 @@ function SignUp() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img className="App-logo" alt="logo" />
         <p>
           Cool <code>src/App.js</code> and save to reload.
         </p>
