@@ -1,10 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import './SignUp.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Tombol} from './Komponen/try';
-import {Data} from './Komponen/try';
+import {Tombol} from '../Komponen/try';
 
-function App() {
+function SignUp() {
   return (
     <div className="App">
       <header className="App-header">
@@ -13,7 +11,6 @@ function App() {
           Cool <code>src/App.js</code> and save to reload.
         </p>
         <Tombol/>
-        <Data/>
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -27,4 +24,4 @@ function App() {
   );
 }
 
-export default App;
+export default SignUp;
