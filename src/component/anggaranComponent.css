@@ -1,0 +1,108 @@
+body{
+    background-color: #B6EDFE;
+}
+
+.branch{
+    display: flex;
+    flex-direction: row;
+}
+.navigation{
+    height: 90vh;
+    background-color: #fff;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.logoAnggaran{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+}
+.navigationAnggaran{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.containNav{
+    margin: 0.5em;
+}
+
+.pengaturanAnggaran{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainAnggaran{
+    margin: 3em 5em;
+    width: 80vw;
+}
+.tampungAnggaranMain{
+    display: flex;
+}
+.anggaranNabung{
+    width: 40vw;
+}
+.tujuanAnggaranBulan{
+    margin: 1em;
+    display: flex;
+    background-color: #fff;
+    border-radius: 1em;
+}
+.tujuanAnggaranBulan > p{
+    padding: 0 1em;
+}
+.anggaranTerkumpul{
+    display: flex;
+    background-color: #fff;
+    height: 20vh;
+}
+.tulisanAnggaran{
+    width: 70%;
+}
+.nominalAnggaran{
+    width: 30%;
+}
+.bulanTabung{
+    display: flex;
+}
+.bulanTabung > h2{
+    padding-right: 2em;
+}
+
+
+
+.buttonsubmit{
+    margin: 5em;
+    display: flex;
+    justify-content: center;
+}
+.submitBtn {
+    padding: 0.6rem 1.3rem;
+    background-color: #fff;
+    border: none;
+    font-size: 0.95rem;
+    color: #000;
+    line-height: 1;
+    width: 5vw;
+    height: 10vh;
+    border-radius: 2.5em;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+    margin: 0;
+}
+.submitBtn>i {
+    font-size: 2em;
+}
+.submitBtn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
