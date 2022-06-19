@@ -55,17 +55,19 @@ form {
 
 .buttonsubmit,
 .toLogInPage {
-    margin: 3em 0;
+    margin: 1em 0;
     display: flex;
     justify-content: center;
 }
 
 .submitBtn {
+    display: flex;
+    justify-content: center;
     padding: 0.6rem 1.3rem;
-    background-color: #fff;
+    background-color: #000;
     border: none;
     font-size: 0.95rem;
-    color: #000;
+    color: #fff;
     line-height: 1;
     width: 5vw;
     height: 10vh;
@@ -81,6 +83,6 @@ form {
 }
 
 .submitBtn:hover {
-    background-color: #000;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
 }
