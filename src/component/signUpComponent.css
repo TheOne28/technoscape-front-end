@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #263238;
+    font-weight: 900;
+    background-color: #B6EDFE;
+}
+
+.cardcontain {
+    width: 75vw;
+    margin: auto;
+}
+
+.cardlogo {
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 7vw;
+    padding: 1em;
+    border-radius: 0.5em;
+    color: #6DC7E3;
+}
+
+.selamat {
+    text-align: center;
+    font-size: 2em;
+}
+
+.neumorphism {
+    height: auto;
+    width: 50vw;
+    font-size: 2em;
+    margin: auto;
+    display: block;
+    border-radius: 50px;
+    background: #ffffff;
+}
+
+.neumorphism>h2 {
+    text-align: center;
+    margin: 0;
+}
+
+form {
+    padding: 2rem 3rem;
+}
+
+.input-container {
+    margin: auto;
+}
+
+.input {
+    width: 80%;
+    outline: none;
+    border: 2px solid #000;
+    background: none;
+    padding: 0.6rem 1.2rem;
+    color: #000;
+    font-weight: 500;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
+    border-radius: 50px;
+}
+
+.input-container label {
+    padding: 0 0.4rem;
+    color: #18033c;
+    font-size: 2rem;
+    font-weight: 400;
+    pointer-events: none;
+}
+
+.buttonsubmit,
+.toLogInPage {
+    margin: 3em 0;
+    display: flex;
+    justify-content: center;
+}
+
+.submitBtn {
+    padding: 0.6rem 1.3rem;
+    background-color: #fff;
+    border: none;
+    font-size: 0.95rem;
+    color: #000;
+    line-height: 1;
+    width: 5vw;
+    height: 10vh;
+    border-radius: 2.5em;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s;
+    margin: 0;
+}
+
+.submitBtn>i {
+    font-size: 3em;
+}
+
+.submitBtn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+a:link {
+    color: #407BFF;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #407BFF;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #407BFF;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #407BFF;
+    background-color: transparent;
+    text-decoration: underline;
+}
