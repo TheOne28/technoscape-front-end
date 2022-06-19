@@ -15,12 +15,12 @@ body{
     align-items: center;
 
 }
-.logoAnggaran{
+.logoBeranda{
     height: 20vh;
     display: flex;
     align-items: center;
 }
-.navigationAnggaran{
+.navigationBeranda{
     height: 40vh;
     display: flex;
     flex-direction: column;
@@ -31,7 +31,7 @@ body{
     margin: 0.5em;
 }
 
-.pengaturanAnggaran{
+.pengaturanBeranda{
     height: 20vh;
     display: flex;
     flex-direction: column;
@@ -39,44 +39,48 @@ body{
     align-items: center;
 }
 
-.mainAnggaran{
+.mainBeranda{
     margin: 3em 5em;
     width: 80vw;
 }
-.tampungAnggaranMain{
-    display: flex;
-}
-.anggaranNabung{
-    width: 40vw;
-}
-.tujuanAnggaranBulan{
+.berandaTerkumpul,
+.berandaTerkumpulTwo{
     margin: 1em;
-    display: flex;
-    background-color: #fff;
-    border-radius: 1em;
-}
-.tujuanAnggaranBulan > p{
-    padding: 0 1em;
-}
-.anggaranTerkumpul{
     display: flex;
     background-color: #fff;
     height: 20vh;
 }
-.tulisanAnggaran{
+.berandaYangLain{
+    display: flex;
+    justify-content: space-around;
+}
+.pendapatan, .pengeluaran{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 30vw;
+    background-color: #fff;
+}
+.tulisanBeranda,
+.tulisanBerandaTwo{
     width: 70%;
 }
-.nominalAnggaran{
+.nominalTerkumpul,
+.tulisanBerandaTwo{
     width: 30%;
 }
-.bulanTabung{
+.individualNabung{
     display: flex;
 }
-.bulanTabung > h2{
-    padding-right: 2em;
+.deskripsiNabung > p{
+    display: inline;
 }
-
-
+.deskripsiHead{
+    display: flex;
+}
+progress{
+    display: block;
+}
 
 .buttonsubmit{
     margin: 5em;
@@ -84,8 +88,6 @@ body{
     justify-content: center;
 }
 .submitBtn {
-    display: flex;
-    justify-content: center;
     padding: 0.6rem 1.3rem;
     background-color: #fff;
     border: none;
@@ -107,4 +109,3 @@ body{
     background-color: #000;
     color: #fff;
 }
-
