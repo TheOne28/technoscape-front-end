@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./tujuan.css">
+    <link rel="stylesheet" href="./anggaran.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -15,18 +15,18 @@
 <body>
     <section class="branch">
         <section class="navigation">
-            <div class="logoTujuan">
+            <div class="logoAnggaran">
                 <i class="fa-solid fa-wallet"></i>
                 PortoMata
             </div>
-            <div class="navigationTujuan">
+            <div class="navigationAnggaran">
                 <div class="containNav">
                     <img src="./icons/dashboard.svg" alt="">
                     Beranda
                 </div>
                 <div class="containNav">
                     <img src="./icons/invoices.svg" alt="">
-                    Tujuan
+                    Anggaran
                 </div>
                 <div class="containNav">
                     <img src="./icons/wallet.svg" alt="">
@@ -41,7 +41,7 @@
                     Transaksi
                 </div>
             </div>
-            <div class="pengaturanTujuan">
+            <div class="pengaturanAnggaran">
                 <div class="containNav">
                     <img src="./icons/settings.svg" alt="">
                     Pengaturan
@@ -51,42 +51,48 @@
                     Bantuan
                 </div>
             </div>
-            <div class="logOutTujuan">
+            <div class="logOutAnggaran">
                 <img src="./icons/Vector.svg" alt="">
                 <a href="">Log Out</a>
             </div>
         </section>
-        <section class="mainTujuan">
-            <div class="tujuanTerkumpul">
-                <div class="tulisanTujuan">
-                    <h1>Tujuan Terkumpul</h1>
+
+
+
+        <section class="mainAnggaran">
+            <div class="anggaranTerkumpul">
+                <div class="tulisanAnggaran">
+                    <h1>Anggaran untuk</h1>
                 </div>
-                <div class="nominalTerkumpul">
-                    <p>Rp9.000.000</p>
+                <div class="nominalAnggaran">
+                    <input type="date" id="bulanApa" name="bulanApa">
                 </div>
             </div>
-            <div class="tujuanNabung">
-                <div class="individualNabung">
-                    <div class="imageNabung">
-                        <img src="./icons/Savings.svg" alt="">
-                    </div>
-                    <div class="deskripsiNabung">
-                        <div class="deskripsiHead">
-                            <h5>Renovasi Pagar Rumah</h5>
-                            <button><i class="fa-solid fa-pencil"></i></button>
+
+            <div class="tampungAnggaranMain">
+                <div class="anggaranNabung">
+                    <div class="individualNabung">
+                        <div class="bulanTabung">
+                            <h2>Juli</h2>
+                            <h3>Rp10.000.000</h3>
                         </div>
-                        <p>Rp100.000</p>
-                        <p>/</p>
-                        <p>Rp2.000.000</p>
-                        <progress id="file" value="32" max="100"> 32% </progress>
-                        <p>3%</p>
-                        <p>dari sasaran</p>
+                        <div class="deskripsiNabung">
+                            <progress id="file" value="32" max="100"> 32% </progress>
+                        </div>
                     </div>
                 </div>
-                <div class="tambahTujuan"></div>
+                <div class="kategoriAnggaran">
+                    <div class="tujuanAnggaranBulan">
+                        <img src="./icons/chart.svg" alt="">
+                        <p>Belanja</p>
+                        <p>Rp50.000</p>
+                    </div>
+                </div>
             </div>
         </section>
     </section>
+
+
     <section class="buttonsubmit">
         <button class="submitBtn">
             <i class="fa-solid fa-check"></i>

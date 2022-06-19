@@ -15,12 +15,12 @@ body{
     align-items: center;
 
 }
-.logoTujuan{
+.logoAnggaran{
     height: 20vh;
     display: flex;
     align-items: center;
 }
-.navigationTujuan{
+.navigationAnggaran{
     height: 40vh;
     display: flex;
     flex-direction: column;
@@ -31,7 +31,7 @@ body{
     margin: 0.5em;
 }
 
-.pengaturanTujuan{
+.pengaturanAnggaran{
     height: 20vh;
     display: flex;
     flex-direction: column;
@@ -39,33 +39,44 @@ body{
     align-items: center;
 }
 
-.mainTujuan{
+.mainAnggaran{
     margin: 3em 5em;
     width: 80vw;
 }
-.tujuanTerkumpul{
+.tampungAnggaranMain{
+    display: flex;
+}
+.anggaranNabung{
+    width: 40vw;
+}
+.tujuanAnggaranBulan{
+    margin: 1em;
+    display: flex;
+    background-color: #fff;
+    border-radius: 1em;
+}
+.tujuanAnggaranBulan > p{
+    padding: 0 1em;
+}
+.anggaranTerkumpul{
     display: flex;
     background-color: #fff;
     height: 20vh;
 }
-.tulisanTujuan{
+.tulisanAnggaran{
     width: 70%;
 }
-.nominalTerkumpul{
+.nominalAnggaran{
     width: 30%;
 }
-.individualNabung{
+.bulanTabung{
     display: flex;
 }
-.deskripsiNabung > p{
-    display: inline;
+.bulanTabung > h2{
+    padding-right: 2em;
 }
-.deskripsiHead{
-    display: flex;
-}
-progress{
-    display: block;
-}
+
+
 
 .buttonsubmit{
     margin: 5em;
